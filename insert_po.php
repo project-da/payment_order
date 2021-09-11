@@ -12,7 +12,7 @@ include_once('create.php');
     $pay_term=$_POST["pay_term"];
     $supplier=$_POST["supplier"];
     $category=$_POST["category"];
-    $qry="insert create_po values('$PO','$o_date','$d_date','$destination','$price_term','$pay_term','$supplier','$category')";
+    $qry="insert create_po values('$PO','$o_date','$d_date','$destination','$price_term','$pay_term','$supplier','$category')";    
     $res= mysqli_query($link, $qry);
     if(mysqli_affected_rows($link)==1)
     {
@@ -180,7 +180,7 @@ include_once('create.php');
                         <td><?php echo $user['TOTAL']; ?></td>
                         <td><a href="edit.php?CODE=<?php echo $user['CODE']; ?>">UPDATE</a></td> 
             </tr>
-            <?php
+            <?php 
                 }
             }
         }
@@ -211,7 +211,7 @@ $('#toDate').on('change', function(){
  </script>
  
   </body>
-</html>
-
+</html>  
+<!--html end-->
 
 
