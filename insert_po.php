@@ -1,4 +1,4 @@
-<?php
+<?php //php start
 include('./conn/config.php'); //connection
 include_once('create.php');
     if(isset($_POST["btn"]))
