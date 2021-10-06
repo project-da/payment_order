@@ -1,6 +1,6 @@
 <?php
 
-include('./conn/config.php');
+include('config.php');
 include_once('Manager_view1.php');
 
 ?>
