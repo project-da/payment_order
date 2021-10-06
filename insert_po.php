@@ -1,6 +1,6 @@
 <?php
  //connection
- include('./conn/config.php'); 
+ include('config.php'); 
     if(isset($_POST["btn"]))
 {
     $PO=$_POST["PO"];
