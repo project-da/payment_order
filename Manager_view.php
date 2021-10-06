@@ -10,6 +10,7 @@ include_once('Manager_view1.php');
             <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"/>
             <link rel="stylesheet" href="style.css"></link>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
 <body>
     
