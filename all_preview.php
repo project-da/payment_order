@@ -1,5 +1,5 @@
 <?php
-include('./conn/config.php');  //connection
+include('config.php');  //connection
 include_once('create.php');
  ?>
       <html>
