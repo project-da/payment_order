@@ -15,12 +15,12 @@
     if($row["usertype"]=="manager")
    {  
          $_SESSION["username"]=$username;
-         header("location:Manager_view1.php");
+         header("location:Manager_view.php");
          }
        elseif ($row["usertype"]=="admin")
        {
         $_SESSION["username"]=$username;
-        header("location:create.php");
+        header("location:insert_po.php");
        }
        else
        {
